@@ -24,7 +24,7 @@ let main (_argv: string []): int =
     let validOps = List.ofArray([|"deposit"; "withdraw"|])
 
     while true do
-        Console.Write "What would you like to to do? (deposit or withdraw) "
+        Console.Write "What would you like to do? (deposit or withdraw) "
         let operation = Console.ReadLine()
         
         if List.contains operation validOps then
