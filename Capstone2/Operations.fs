@@ -26,7 +26,7 @@ let withdraw amount account =
         { account with
               Balance = account.Balance - amount }
 
-// Audits an operation to an account with a given amount
+// Audits an operation applied to an account with a given amount
 let auditAs (operationName: string)
             (audit: AuditLog)
             (operation: AccountOperation)
