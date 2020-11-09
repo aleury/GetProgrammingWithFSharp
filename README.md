@@ -1,1 +1,1 @@
-# GettingProgrammingWithFSharp
+# GetProgrammingWithFSharp
